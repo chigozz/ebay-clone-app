@@ -1,0 +1,49 @@
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore-container .product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.explore-container .product-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-container .product-circle img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.explore-container .last-circle {
+  background: linear-gradient(to bottom, blue, purple);
+}
+
+.explore-container .see-more {
+
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+.forward-icon {
+  width: 30px;
+  height: 40px;
+}
